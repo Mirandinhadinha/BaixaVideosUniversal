@@ -1,0 +1,19 @@
+# Ambientes e caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Artefatos de empacotamento (gere com PyInstaller; publique em Releases)
+build/
+dist/
+
+# Vídeos baixados (mantém só a pasta)
+videos_baixados/*
+!videos_baixados/.gitkeep
+
+# IDE / SO
+.vscode/
+.idea/
+.claude/
+Thumbs.db
